@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{625B29A1-4FB8-732A-C6B2-0B8D1D38203B}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Practice",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
