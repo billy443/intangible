@@ -9,12 +9,12 @@ class APracticeCharacter : public ACharacter
 	GENERATED_UCLASS_BODY()
 
 	/** Side view camera */
-	UPROPERTY(VisibleAnywhere, EditInLine, Category=Camera)
-	TAssetPtr<class UCameraComponent> SideViewCameraComponent;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
+	TSubobjectPtr<class UCameraComponent> SideViewCameraComponent;
 
 	/** Camera boom positioning the camera beside the character */
-	UPROPERTY(VisibleAnywhere, EditInLine, Category = Camera)
-	TAssetPtr<class USpringArmComponent> CameraBoom;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
+	TSubobjectPtr<class USpringArmComponent> CameraBoom;
 
 protected:
 
